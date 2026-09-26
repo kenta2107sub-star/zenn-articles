@@ -3,7 +3,7 @@ title: "Claudeデスクトップの / に日本語の説明を出すmacOSアプ�
 emoji: "🔤"
 type: "tech"
 topics: ["claude", "electron", "typescript", "macos", "個人開発"]
-published: false
+published: true
 ---
 
 ## つくったもの
