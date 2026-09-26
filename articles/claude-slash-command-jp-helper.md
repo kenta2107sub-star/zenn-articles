@@ -62,7 +62,7 @@ Claudeアプリで `/` を打つと、コマンドの候補が出てきます。
 
 前面アプリの確認は、追跡中は100ミリ秒ごと、それ以外は1秒ごとに回しています。
 
-![Claudeアプリの横に、画面右下のポップアップが出ている実際の画面](/images/claude-slash-command-jp-helper/screen-popup.png)
+![Claudeアプリの入力欄の右上に、コマンド一覧と /btw の詳しい説明が出ている実際の画面](/images/claude-slash-command-jp-helper/screen-popup.png)
 
 要するに、Claudeアプリには一切触れず、OSのキー入力と前面アプリの情報だけで「いまClaudeアプリに `/` が打たれている」ことを判断しています。
 
