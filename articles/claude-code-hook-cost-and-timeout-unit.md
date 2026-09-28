@@ -3,7 +3,7 @@ title: "Claude Codeのフック監査で見つけた、空振りで約200msとti
 emoji: "⏱️"
 type: "tech"
 topics: ["claudecode", "claude", "hooks", "performance"]
-published: false
+published: true
 ---
 
 > 検証日: 2026-09-28（仕様を公式ドキュメントで再確認）／ Claude Code 2.1.270 ／ macOS 13.7.8
