@@ -6,7 +6,7 @@ topics: ["claudecode", "claude", "hooks", "performance"]
 published: false
 ---
 
-> 検証日: 2026-09-28 ／ Claude Code 2.1.270 (Claude Code) ／ macOS 13.7.8
+> 検証日: 2026-09-28 ／ Claude Code 2.1.270 (Claude Code) ／ macOS 13.7.8（実測は2026-09-07・v2.1.261。仕様は2026-09-28に公式ドキュメントで再確認）
 
 Claude Codeのフックは、何もせずに終わるスクリプトでも、呼ばれるたびにプロセスの起動分の時間を取ります。
 またフック定義の `timeout` は秒で数えるので、ミリ秒のつもりで書くと1000倍の値になります。
@@ -99,8 +99,8 @@ UserPromptSubmit の既定は30秒なので、5000秒はその166倍です。
 pixel-agents のフックは11件すべて削除しました。
 連携先のサーバは動いておらず、全件が空振りだったからです。
 
-削除にしたのは、フックに有効と無効を切り替えるフラグが無いためです。
-止めるには `settings.json` からエントリを消すしかありません。
+削除にしたのは、フックを1件ずつ止めるフラグが無いためです。
+`disableAllHooks` で全体を止めることはできますが、それでは必要なフックまで止まります（https://code.claude.com/docs/en/hooks ）。
 消す前に `settings.json.bak-YYYYMMDD` を作っておき、戻せるようにしました。
 なお `once: true` という指定はスキルの frontmatter でしか効かず、`settings.json` とエージェントの frontmatter では無視されます（公式ドキュメント）。
 「1回だけ動かす」ことで軽くする手は、settings.json のフックには使えません。
@@ -119,7 +119,8 @@ pixel-agents のフックは11件すべて削除しました。
 
 timeout については、フックの `timeout` は必ず1桁か2桁の秒数で書くと決めました。
 3桁以上の値を見たら、ミリ秒との取り違えを先に疑います。
-ただし SessionEnd だけは例外で、全体で1.5秒の予算を共有するため、個別に長い値を書いても意味がありません。
+SessionEnd だけは事情が違い、フック全体で1.5秒の予算を共有します。
+個別に長い `timeout` を書くと、予算がその値まで（最大60秒）引き上げられます（https://code.claude.com/docs/en/hooks 、2026-09-28 に確認）。
 
 ## 残っている疑問
 
