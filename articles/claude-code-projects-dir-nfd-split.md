@@ -3,7 +3,7 @@ title: "日本語フォルダ名の濁点でClaude Codeの履歴が割れ、152M
 emoji: "🔀"
 type: "tech"
 topics: ["claudecode", "claude", "unicode", "macos"]
-published: false
+published: true
 ---
 
 > 検証日: 2026-10-08（検出コマンドの動作を再確認）／ Claude Code 2.1.270 ／ macOS 13.7.8
