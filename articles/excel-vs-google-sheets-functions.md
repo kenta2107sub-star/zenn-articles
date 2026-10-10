@@ -3,7 +3,7 @@ title: "ExcelとGoogleスプレッドシートで書き方が違う関数20件�
 emoji: "🔀"
 type: "tech"
 topics: ["excel", "googlesheets", "spreadsheet", "業務効率化"]
-published: false
+published: true
 ---
 
 > この記事は AI（Claude）を使って作成し、内容は筆者が確認しました。

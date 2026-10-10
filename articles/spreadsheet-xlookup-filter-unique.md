@@ -3,7 +3,7 @@ title: "手で写していた集計を、XLOOKUP・UNIQUE・FILTERで置き換�
 emoji: "📊"
 type: "tech"
 topics: ["excel", "googlesheets", "spreadsheet", "業務効率化"]
-published: false
+published: true
 ---
 
 > この記事は AI（Claude）を使って作成し、内容と数式は筆者が確認しました。
