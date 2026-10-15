@@ -3,7 +3,7 @@ title: "Claude CodeのBashツールで、grepはugrepに、lsはrtk lsに黙っ�
 emoji: "🔁"
 type: "tech"
 topics: ["claudecode", "claude", "grep", "bash"]
-published: false
+published: true
 ---
 
 > 検証日: 2026-10-15 ／ Claude Code 2.1.270 ／ macOS 13.7.8
