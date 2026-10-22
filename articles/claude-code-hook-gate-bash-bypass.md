@@ -3,7 +3,7 @@ title: "Claude Codeのフックで作ったゲートを、Bashのlnやtouchが�
 emoji: "🚧"
 type: "tech"
 topics: ["claudecode", "claude", "bash", "shellscript"]
-published: false
+published: true
 ---
 
 > 観測日: 2026-09-08、2026-09-10、2026-09-11、2026-09-12、2026-09-18、2026-09-28 ／ 記事の作成: 2026-10-22（Claude Code 2.1.270、macOS 13.7.8）
