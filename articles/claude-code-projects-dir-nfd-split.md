@@ -1,5 +1,5 @@
 ---
-title: "日本語フォルダ名の濁点でClaude Codeの履歴が割れ、152MBが/resumeから見えなくなっていた"
+title: "Claude Codeの/resumeに過去の会話が出ないなら、フォルダ名の濁点を疑う"
 emoji: "🔀"
 type: "tech"
 topics: ["claudecode", "claude", "unicode", "macos"]

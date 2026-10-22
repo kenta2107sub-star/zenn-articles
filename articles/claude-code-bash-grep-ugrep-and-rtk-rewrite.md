@@ -1,5 +1,5 @@
 ---
-title: "Claude CodeのBashツールで、grepはugrepに、lsはrtk lsに黙ってすり替わっていた"
+title: "Claude CodeのBashでgrepがエラーになる、lsで確認が出る原因"
 emoji: "🔁"
 type: "tech"
 topics: ["claudecode", "claude", "grep", "bash"]
