@@ -1,5 +1,5 @@
 ---
-title: "Claude Codeのフック監査で見つけた、空振りで約200msとtimeoutの1000倍ずれ"
+title: "Claude Codeのフックで動作が遅くなる原因と、timeoutの単位の落とし穴"
 emoji: "⏱️"
 type: "tech"
 topics: ["claudecode", "claude", "hooks", "performance"]
