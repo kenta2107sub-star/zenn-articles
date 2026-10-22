@@ -1,5 +1,5 @@
 ---
-title: "Claude Codeのフックで作ったゲートを、Bashのlnやtouchが素通りし、読むだけのコマンドは止められていた"
+title: "Claude Codeのフックで止めたはずの書き込みが、Bashのlnやtouchで通っていた"
 emoji: "🚧"
 type: "tech"
 topics: ["claudecode", "claude", "bash", "shellscript"]
