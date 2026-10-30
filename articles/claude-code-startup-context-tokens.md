@@ -3,7 +3,7 @@ title: "Claude Codeのコンテキストが最初から7万トークン埋まっ
 emoji: "🧮"
 type: "tech"
 topics: ["claudecode", "claude", "jq", "llm"]
-published: false
+published: true
 ---
 
 > 観測日: 2026-09-08、2026-09-11、2026-09-14 ／ 記事の作成: 2026-10-29（Claude Code 2.1.270、macOS 13.7.8）
